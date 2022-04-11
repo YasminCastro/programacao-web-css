@@ -55,7 +55,8 @@ h2{
 /* Paragrafo */
 
 p{
-    font-size: 12px;  
+    font-size: 12px;
+    text-align: justify;  
 }
 
 /* info */
@@ -96,6 +97,10 @@ img{
 
 ul{
     background-color: whitesmoke;
+}
+
+li{
+    list-style: none;  
 }
 
 #lista-cursos{
