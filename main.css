@@ -1,129 +1,121 @@
-
 /* Corpo do documento*/
 
-body{
-    font-family: "Verdana";
-    background-color: beige;
-    color: black;
-    width: 50%;
-    margin-left: 25%;
+body {
+  font-family: "Verdana";
+  background-color: beige;
+  color: black;
+  width: 50%;
+  margin-left: 25%;
 }
 
 /* Menu Superior */
 
-#menu li{
-    list-style: none;  
-
-    text-transform: uppercase; 
-
-    display: inline-block;
-
-    margin: 5px;
+#menu {
+  background-color: whitesmoke;
+  text-align: center;
 }
 
-
-
-#menu a{
-    text-decoration: none;
-
-    font-family: "Tahoma";
-    color: green;
-    font-weight: bold;
-
+#menu ul {
+  list-style: none;
 }
 
-#menu a:hover{   
-    color: coral;  
+#menu li {
+  text-transform: uppercase;
 
+  display: inline-block;
+  margin: 5px;
+}
+
+#menu a {
+  text-decoration: none;
+
+  font-family: "Tahoma";
+  color: green;
+  font-weight: bold;
+}
+
+#menu a:hover {
+  color: coral;
 }
 
 /* Cabeçalhos de nivel 1 */
 
-
-h1{
-    font-size: 30px;
-    color:green
+h1 {
+  font-size: 30px;
+  color: green;
 }
 
 /* Cabeçalhos de nivel 2 */
 
-h2{
-    font-size: 16px;
-    color: coral
+h2 {
+  font-size: 16px;
+  color: coral;
 }
 
 /* Paragrafo */
 
-p{
-    font-size: 12px;
-    text-align: justify;  
+p {
+  font-size: 12px;
+  text-align: justify;
 }
 
 /* info */
 
-
-.info{
+.info {
   font-size: 12px;
-  font-style: italic;  
-
+  font-style: italic;
+  text-align: right;
 }
 
 /* intro */
 
-.intro::first-letter{
-    color: green;
-    font-size: 200%;
+.intro::first-letter {
+  color: green;
+  font-size: 200%;
 }
 
 /* publicacao */
 
-#publicacao{
-    font-size: 10px;
+#publicacao {
+  font-size: 10px;
 }
 
 /* imagens */
 
-img{
-    border-style: solid;
-    border-width: 2px;
-    border-color: green;
-    max-width: 60%;
+img {
+  border-style: solid;
+  border-width: 2px;
+  border-color: green;
+  max-width: 60%;
 
+  display: block;
+  margin: 0 auto;
 }
-
 
 /* lista de cursos */
 
+#lista-cursos {
+  font-size: 12px;
+  border-left: solid;
+  border-width: 5px;
+  border-color: red;
 
-ul{
-    background-color: whitesmoke;
-}
+  background-color: whitesmoke;
 
-li{
-    list-style: none;  
-}
-
-#lista-cursos{
-    font-size: 12px;
-    border-left: solid ;
-    border-color: red;
-    border-width: 5px;
-    padding: 10px 20px 10px 20px;
-
+  list-style: none;
+  padding: 10px 20px 10px 20px;
 }
 
 /* links da pagina */
 
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 
-    font-family: "Tahoma";
-    color: red;
-    font-weight: bold;
+  font-family: "Tahoma";
+  color: red;
+  font-weight: bold;
 }
 
-
-a:hover{
-
-    color: coral;
+a:hover {
+  color: coral;
 }
